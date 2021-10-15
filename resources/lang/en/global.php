@@ -1,0 +1,41 @@
+<?php
+
+return [
+    'id' => 'Id',
+    'back' => 'Go Back',
+    'add' => 'Add',
+    'edit' => 'Edit',
+    'delete' => 'Delete',
+    'create' => 'Create',
+    'pleaseSelect' => 'Please Select',
+    'save' => 'Save',
+    'areYouSure' => 'Are You Sure?',
+    'select_all' => 'Select All',
+    'deselect_all' => 'Deselect All',
+    'status' => 'Status',
+    'teamwork_id'=> 'Teamwork Id',
+    'description' => 'Description',
+    'datatables' => [
+        'copy' => 'Copy',
+        'csv' => 'CSV',
+        'excel' => 'Excel',
+        'pdf' => 'PDF',
+        'print' => 'Print',
+        'colvis' => 'Column visibility',
+        'delete' => 'Delete selected',
+        'zero_selected' => 'No rows selected',
+    ],
+    'campaign'=> [
+        'cycle' => 'Cycle',
+        'niche' => 'Niche',
+        'budget' => 'Budget',
+        'budget_real' => 'Real Budget',
+        'manager_seo' => 'SEO Manager',
+        'manager_technical' => 'Technical Manager',
+        'client' => 'Client',
+        'domain' => 'Domain',
+        'currency' => 'Currency',
+        'payment_date' => 'Payment Date',
+        'start_date' => 'Start Date',
+    ]
+];

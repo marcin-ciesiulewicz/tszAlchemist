@@ -1,0 +1,58 @@
+/*Navbar*/
+.navbar-nav > li {
+  float: left;
+  position: relative;
+}
+
+.nav-item.active a::after {
+  border-bottom: 2px solid #5bc0eb;
+  bottom: -10px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+/*tags css*/
+.tag{
+    padding: 1px 5px;
+    border-radius: 24px;
+    color: white;
+}
+
+.tag-name, .remove-tag, .remove-tag:hover{
+    color: white;
+}
+
+.tag-remove{
+    color: white;
+    background-color: transparent;
+    font-size: 12px;
+    text-align: center;
+    transform: translateY(-1px);
+    display: inline-block;
+}
+
+.input-sm{
+    height: 30px !important;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+/*invite users btn*/
+.btn-custom-round{
+    border: 1px solid #17a2b8!important;
+    padding: 2px 6px;
+    border-radius: 32px;
+    color: #17a2b8!important;
+}
+
+/*custom validation classes*/
+span.is-invalid{
+    border: 1px solid #e3342f !important;
+}
+label.is-invalid{
+    color: #e3342f;
+}

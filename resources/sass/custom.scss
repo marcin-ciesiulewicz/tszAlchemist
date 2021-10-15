@@ -1,0 +1,15 @@
+.navbar-nav > li {
+    float: left;
+    position: relative;
+}
+
+.nav-item.active {
+    a::after {
+        border-bottom: 2px solid #5bc0eb;
+        bottom: -10px;
+        content: " ";
+        left: 0;
+        position: absolute;
+        right: 0;
+    }
+}
